@@ -14,4 +14,4 @@ PHP was made to create all the dynamic web pages for this application. These pag
 
 Bootstrap was used to style the PHP/HTML pages. 
 
-This application was run on localhost server which was launched using the [XAMPP application.](https://www.apachefriends.org/)
+This application was run on localhost server which was launched using the [XAMPP](https://www.apachefriends.org/) application.
