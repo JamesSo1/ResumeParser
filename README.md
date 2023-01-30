@@ -8,9 +8,9 @@ For an example of how the resume data is stored within a json file, refer to the
 
 ## Technologies Used
 
-Python was used to take a resume pdf file and convert it into text using the Python library, [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/). This text was then written and stored in the resumeData.json file.
+Python was used to take a resume pdf file and convert it into text using the Python library, [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/). This text was then written and stored in the resumeData.json file. In addition, Python was used to store each resume pdf file in a folder called "Uploads". These files were stored so that they may be viewed by a user when the user clicks on the "View Resume" option.
 
-PHP was made to create all the dynamic web pages for this application. These pages consist of the resume submission page, the resume display page, and the resume display page after a search term(s) had been entered. The resume data stored in the resumeData.json file is able to be accessed via PHP to allow for the display of all and specific resume data. The search.php file in particular is what takes care of filtering resumes by keywords as well as displaying the resumes after they are filtered.
+PHP was made to create all the dynamic web pages used in this application. These pages consist of the resume submission page, the resume display page, and the resume display page after a search term(s) had been entered. The resume data stored in the resumeData.json file is able to be accessed via PHP to allow for the display of all and specific resume data. The search.php file in particular is what takes care of filtering resumes by keywords as well as displaying the resumes after they are filtered.
 
 Bootstrap was used to style the PHP/HTML pages. 
 
