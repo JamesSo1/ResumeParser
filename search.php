@@ -23,17 +23,17 @@
     $matches = [];
     foreach ($resumes as $resume){
       foreach($search_terms as $search_term){
-        if (str_contains($resume["id"], $search_term)){
-          array_push($matches, $resume);
-          break;
-        }  else if (str_contains($resume["content"], $search_term)){
-          array_push($matches, $resume);
+        // checks to see if the resume includes ALL the keywords given 
+        if (!(str_contains($resume["id"], $search_term)) and !(str_contains($resume["content"], $search_term))){
           break;
         }
+        if ($search_term == end($search_terms)){
+          array_push($matches, $resume);
+        }
+        }
       }
+      return $matches;
     }
-    return $matches;
-  }
 
     $json_data = file_get_contents("resumeData.json");
     $resumes = json_decode($json_data, true);
