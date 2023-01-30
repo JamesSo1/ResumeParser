@@ -1,1 +1,15 @@
 # ResumeParserProject
+
+## Project Description
+
+This web app takes in resumes from various users in the form of a pdf file. The contents of these resumes are stored and used to display all submitted resumes in the form of a chart. The resumes can be filtered through using a search bar that can take one or more key terms.
+
+For an example of how the resume data is stored within a json file, refer to the example that is preset within [resumeData.json.](https://github.com/JamesSo1/ResumeParserProject/blob/main/resumeData.json)
+
+## Technologies Used
+
+Python was used to take a resume pdf file and convert it into text using the Python library, [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/). This text was then stored in the resumeData.json file.
+
+PHP was made to create dynamic web pages. These pages consist of the resume submission page, the resume display page, and the resume display page after a search term had been entered. The resume data stored in the resumeData.json file was able to be accessed via PHP to allow for the display of all and specific resume data.
+
+Bootstrap was used to style the PHP/HTML pages. 
