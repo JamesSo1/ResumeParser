@@ -13,3 +13,5 @@ Python was used to take a resume pdf file and convert it into text using the Pyt
 PHP was made to create all the dynamic web pages for this application. These pages consist of the resume submission page, the resume display page, and the resume display page after a search term(s) had been entered. The resume data stored in the resumeData.json file is able to be accessed via PHP to allow for the display of all and specific resume data.
 
 Bootstrap was used to style the PHP/HTML pages. 
+
+This application was run on localhost server which was launched using the (https://www.apachefriends.org/)[XAMPP application.]
