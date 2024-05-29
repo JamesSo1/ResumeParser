@@ -26,4 +26,5 @@ Here's a quick demo of this app in action. In the demo, notice that docx files a
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c8ae6647ff2c4342ac331617d6c918ee-with-play.gif">
     </a>
 
+
 GIF created with Loom  
