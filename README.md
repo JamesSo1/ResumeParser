@@ -17,3 +17,13 @@ Also note that the "Name" display on the resume display page is programmed to sh
 Bootstrap was used to style the PHP/HTML pages. 
 
 This application was run on localhost server which was launched using the [XAMPP](https://www.apachefriends.org/) application. 
+
+## Video Walkthrough
+
+Here's a quick demo of this app in action. In the demo, notice that docx files are rejected since this app only accepts PDF files. Also notice that multiple search terms can be used at once given that a comma is placed between the various search terms. 
+
+  <a href="https://www.loom.com/share/c8ae6647ff2c4342ac331617d6c918ee">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c8ae6647ff2c4342ac331617d6c918ee-with-play.gif">
+    </a>
+
+GIF created with Loom  
