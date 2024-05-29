@@ -20,7 +20,7 @@ This application was run on localhost server which was launched using the [XAMPP
 
 ## Video Walkthrough
 
-Here's a quick demo of this app in action. In the demo, notice that docx files are rejected since this app only accepts PDF files. Also notice that multiple search terms can be used at once given that a comma is placed between the various search terms. 
+Here's a link to a quick demo of this app in action. In this demo, notice that docx files are rejected since this app only accepts PDF files. Also notice that multiple search terms can be used at once given that a comma is placed between the various search terms. 
 
   <a href="https://www.loom.com/share/c8ae6647ff2c4342ac331617d6c918ee">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c8ae6647ff2c4342ac331617d6c918ee-with-play.gif">
