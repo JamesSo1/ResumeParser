@@ -1,4 +1,4 @@
-# Resume Parser
+# 📝 Resume Parser
 
 ## Project Description
 
